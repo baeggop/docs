@@ -1,4 +1,4 @@
-## Store API
+## Store API 문서
 
 ### 기본 정보
 - **Base URL**: `/store`
