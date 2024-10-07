@@ -9,14 +9,14 @@ parts:
       # - file: notebooks/world-bank-package.ipynb
       # - file: notebooks/nasa-apod.ipynb
       # - file: notebooks/bibliography.ipynb
-      - file: api/v1/store.md
-      - file: api/v1/order.md
-      - file: api/v1/payment.md
-      - file: api/v1/book.md
+      - file: api/v1/store
+      - file: api/v1/order
+      - file: api/v1/payment
+      - file: api/v1/book
         # title: store 
-  # - caption: Gallery
-  #   chapters:
-  #     - file: docs/gallery
+  - caption: auth policy
+    chapters:
+      - file: api/auth
   # - caption: Additional Resources
   #   chapters:
   #     - url: https://datapartnership.org
