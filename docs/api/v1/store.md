@@ -2,7 +2,6 @@
 
 ## 기본 정보
 - **Base URL**: `/store`
-- **Authentication**: Optional (Depending on your implementation)
 
 ## 목차
 - [GET `/getAll`](#get-getall) - 모든 가게 조회
@@ -32,7 +31,11 @@
         "address": "string",
         "lat": "string",
         "long": "string",
+        "start": "hh:mm",
+        "end": "hh:mm",
+        "break": "hh:mm",
         "tel": "string",
+        "info": "string",
         "createdAt": "date-time",
         "updatedAt": "date-time"
       }
@@ -68,7 +71,11 @@
         "address": "string",
         "lat": "string",
         "long": "string",
+        "start": "hh:mm",
+        "end": "hh:mm",
+        "break": "hh:mm",
         "tel": "string",
+        "info": "string",
         "createdAt": "date-time",
         "updatedAt": "date-time"
       }
