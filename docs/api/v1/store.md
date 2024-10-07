@@ -12,10 +12,10 @@
 - [5. GET `/:tableId/orders`](#get-tableidorders) - 특정 테이블의 미결제 주문 조회
 - [6. GET `/:storeId/menus`](#get-storeidmenus) - 특정 가게의 메뉴 조회
 - [7. GET `/:storeId`](#get-storeid) - 특정 가게의 상세 정보 조회
-- [8. POST `/:storeId/tables`](#post-storeidtables) - 테이블 정보 수정 및 등록
-- [9. POST `/:storeId/menu-categories`](#post-storeidmenu-categories) - 메뉴 카테고리 추가
-- [10. POST `/:menuCateId/menus`](#post-menucateidmenus) - 메뉴 추가
-- [11. POST `/:menuId/menu-options`](#post-menuidmenu-options) - 메뉴 옵션 추가
+- [8. POST `/:storeId/tables`](#post-storeid-tables) - 테이블 정보 수정 및 등록
+- [9. POST `/:storeId/menu-categories`](#post-storeid-menu-categories) - 메뉴 카테고리 추가
+- [10. POST `/:menuCateId/menus`](#post-menucateid-menus) - 메뉴 추가
+- [11. POST `/:menuId/menu-options`](#post-menuid-menu-options) - 메뉴 옵션 추가
 
 ---
 
