@@ -9,6 +9,7 @@ parts:
       - file: notebooks/world-bank-package.ipynb
       - file: notebooks/nasa-apod.ipynb
       - file: notebooks/bibliography.ipynb
+      - file: docs/api/v1/API.md
   - caption: Gallery
     chapters:
       - file: docs/gallery
