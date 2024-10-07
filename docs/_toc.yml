@@ -2,7 +2,7 @@ format: jb-book
 root: README
 
 parts:
-  - caption: API docs
+  - caption: API Docs
     numbered: True
     chapters:
       # - file: notebooks/world-bank-api.ipynb
