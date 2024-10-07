@@ -5,17 +5,15 @@
 - **Authentication**: Optional (Depending on your implementation)
 
 ## 목차
-- [1. GET `/getAll`](#get-getall) - 모든 가게 조회
-- [2. GET `/search`](#get-search) - 가게 검색
-- [3. GET `/:storeId/tables`](#get-storeidtables) - 특정 가게의 테이블 정보 조회
-- [4. GET `/:storeId/orders`](#get-storeidorders) - 특정 가게의 미결제 주문 조회
-- [5. GET `/:tableId/orders`](#get-tableidorders) - 특정 테이블의 미결제 주문 조회
-- [6. GET `/:storeId/menus`](#get-storeidmenus) - 특정 가게의 메뉴 조회
-- [7. GET `/:storeId`](#get-storeid) - 특정 가게의 상세 정보 조회
-- [8. POST `/:storeId/tables`](#post-storeid-tables) - 테이블 정보 수정 및 등록
-- [9. POST `/:storeId/menu-categories`](#post-storeid-menu-categories) - 메뉴 카테고리 추가
-- [10. POST `/:menuCateId/menus`](#post-menucateid-menus) - 메뉴 추가
-- [11. POST `/:menuId/menu-options`](#post-menuid-menu-options) - 메뉴 옵션 추가
+- [GET `/getAll`](#get-getall) - 모든 가게 조회
+- [GET `/search`](#get-search) - 가게 검색
+- [GET `/:storeId/tables`](#get-storeid-tables) - 특정 가게의 테이블 정보 조회
+- [GET `/:storeId/menus`](#get-storeid-menus) - 특정 가게의 메뉴 조회
+- [GET `/:storeId`](#get-storeid) - 특정 가게의 상세 정보 조회
+- [POST `/:storeId/tables`](#post-storeid-tables) - 테이블 정보 수정 및 등록
+- [POST `/:storeId/menu-categories`](#post-storeid-menu-categories) - 메뉴 카테고리 추가
+- [POST `/:menuCateId/menus`](#post-menucateid-menus) - 메뉴 추가
+- [POST `/:menuId/menu-options`](#post-menuid-menu-options) - 메뉴 옵션 추가
 
 ---
 
