@@ -19,7 +19,7 @@
 
 ---
 
-## 1. GET `/getAll`
+## GET `/getAll`
 ### **설명**: 모든 가게 정보를 조회합니다.
 
 - **Request**: 없음
@@ -52,7 +52,7 @@
 
 ---
 
-## 2. GET `/search`
+## GET `/search`
 ### **설명**: 가게 이름 또는 주소로 검색합니다.
 
 - **Request**:
@@ -94,7 +94,7 @@
 
 ---
 
-## 3. GET `/:storeId/tables`
+## GET `/:storeId/tables`
 ### **설명**: 특정 가게의 테이블 정보 및 관련 미결제 주문 조회
 
 - **Request**:
@@ -154,7 +154,7 @@
 
 ---
 
-## 4. GET `/:storeId/orders`
+## GET `/:storeId/orders`
 ### **설명**: 특정 가게에서 미결제 상태인 모든 주문을 조회합니다.
 
 - **Request**:
@@ -203,7 +203,7 @@
 
 ---
 
-## 5. GET `/:tableId/orders`
+## GET `/:tableId/orders`
 ### **설명**: 특정 테이블의 미결제 주문을 조회합니다.
 
 - **Request**:
@@ -246,7 +246,7 @@
 
 ---
 
-## 6. GET `/:storeId/menus`
+## GET `/:storeId/menus`
 ### **설명**: 특정 가게의 메뉴 및 메뉴 옵션을 조회합니다.
 
 - **Request**:
@@ -300,7 +300,7 @@
 
 ---
 
-## 7. GET `/:storeId`
+## GET `/:storeId`
 ### **설명**: 특정 가게의 세부 정보 및 주문 정보를 조회합니다.
 
 - **Request**:
@@ -381,7 +381,7 @@
 
 ---
 
-## 8. POST `/:storeId/tables`
+## POST `/:storeId/tables`
 ### **설명**: 특정 가게의 테이블 정보를 수정 또는 등록합니다.
 
 - **Request**:
@@ -423,7 +423,7 @@
 
 ---
 
-## 9. POST `/:storeId/menu-categories`
+## POST `/:storeId/menu-categories`
 ### **설명**: 특정 가게에 새로운 메뉴 카테고리를 추가합니다.
 
 - **Request**:
@@ -457,7 +457,7 @@
 
 ---
 
-## 10. POST `/:menuCateId/menus`
+## POST `/:menuCateId/menus`
 ### **설명**: 특정 메뉴 카테고리에 새로운 메뉴를 추가합니다.
 
 - **Request**:
@@ -493,7 +493,7 @@
 
 ---
 
-## 11. POST `/:menuId/menu-options`
+## POST `/:menuId/menu-options`
 ### **설명**: 특정 메뉴에 새로운 옵션을 추가합니다.
 
 - **Request**:
