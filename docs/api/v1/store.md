@@ -5,17 +5,17 @@
 - **Authentication**: Optional (Depending on your implementation)
 
 ## 목차
-- [1. GET `/getAll`](#1-get-getall) - 모든 가게 조회
-- [2. GET `/search`](#2-get-search) - 가게 검색
-- [3. GET `/:storeId/tables`](#3-get-storeidtables) - 특정 가게의 테이블 정보 조회
-- [4. GET `/:storeId/orders`](#4-get-storeidorders) - 특정 가게의 미결제 주문 조회
-- [5. GET `/:tableId/orders`](#5-get-tableidorders) - 특정 테이블의 미결제 주문 조회
-- [6. GET `/:storeId/menus`](#6-get-storeidmenus) - 특정 가게의 메뉴 조회
-- [7. GET `/:storeId`](#7-get-storeid) - 특정 가게의 상세 정보 조회
-- [8. POST `/:storeId/tables`](#8-post-storeidtables) - 테이블 정보 수정 및 등록
-- [9. POST `/:storeId/menu-categories`](#9-post-storeidmenu-categories) - 메뉴 카테고리 추가
-- [10. POST `/:menuCateId/menus`](#10-post-menucateidmenus) - 메뉴 추가
-- [11. POST `/:menuId/menu-options`](#11-post-menuidmenu-options) - 메뉴 옵션 추가
+- [1. GET `/getAll`](#get-getall) - 모든 가게 조회
+- [2. GET `/search`](#get-search) - 가게 검색
+- [3. GET `/:storeId/tables`](#get-storeidtables) - 특정 가게의 테이블 정보 조회
+- [4. GET `/:storeId/orders`](#get-storeidorders) - 특정 가게의 미결제 주문 조회
+- [5. GET `/:tableId/orders`](#get-tableidorders) - 특정 테이블의 미결제 주문 조회
+- [6. GET `/:storeId/menus`](#get-storeidmenus) - 특정 가게의 메뉴 조회
+- [7. GET `/:storeId`](#get-storeid) - 특정 가게의 상세 정보 조회
+- [8. POST `/:storeId/tables`](#post-storeidtables) - 테이블 정보 수정 및 등록
+- [9. POST `/:storeId/menu-categories`](#post-storeidmenu-categories) - 메뉴 카테고리 추가
+- [10. POST `/:menuCateId/menus`](#post-menucateidmenus) - 메뉴 추가
+- [11. POST `/:menuId/menu-options`](#post-menuidmenu-options) - 메뉴 옵션 추가
 
 ---
 
