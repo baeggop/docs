@@ -10,6 +10,7 @@ parts:
       # - file: notebooks/nasa-apod.ipynb
       # - file: notebooks/bibliography.ipynb
       - file: docs/api/v1/store.md
+        title: store 
   - caption: Gallery
     chapters:
       - file: docs/gallery

@@ -1,3 +1,4 @@
+# Store API
 ## 기본 정보
 - **Base URL**: `/store`
 - **Authentication**: Optional (Depending on your implementation)
