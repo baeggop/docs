@@ -1,9 +1,9 @@
-# Store API
+## Store API
 
-## 기본 정보
+### 기본 정보
 - **Base URL**: `/store`
 
-## 목차
+### 목차
 - [GET `/getAll`](#get-getall) - 모든 가게 조회
 - [GET `/search`](#get-search) - 가게 검색
 - [GET `/:storeId/tables`](#get-storeid-tables) - 특정 가게의 테이블 정보 조회
@@ -16,9 +16,9 @@
 
 ---
 
-## GET `/getAll`
-### **설명**: 모든 가게 정보를 조회합니다.
-
+### GET `/getAll`
+- **설명**: 모든 가게 정보를 조회합니다.
+  
 - **Request**: 없음
 - **Response**:
   - **Status**: 200 OK
@@ -49,12 +49,10 @@
       }
       ```
 
-</details>
-
 ---
 
-## GET `/search`
-### **설명**: 가게 이름 또는 주소로 검색합니다.
+### GET `/search` 
+- **설명**: 가게 이름 또는 주소로 검색합니다.
 
 - **Request**:
   - **Query Parameters**:
@@ -95,12 +93,10 @@
       }
       ```
 
-</details>
-
 ---
 
-## GET `/:storeId/tables`
-### **설명**: 특정 가게의 테이블 정보 및 관련 미결제 주문 조회
+### GET `/:storeId/tables`
+- **설명**: 특정 가게의 테이블 정보 및 관련 미결제 주문 조회
 
 - **Request**:
   - **Path Parameters**:
@@ -155,12 +151,10 @@
       }
       ```
 
-</details>
-
 ---
 
-## GET `/:storeId/orders`
-### **설명**: 특정 가게에서 미결제 상태인 모든 주문을 조회합니다.
+### GET `/:storeId/orders`
+- **설명**: 특정 가게에서 미결제 상태인 모든 주문을 조회합니다.
 
 - **Request**:
   - **Path Parameters**:
@@ -204,12 +198,10 @@
       }
       ```
 
-</details>
-
 ---
 
-## GET `/:tableId/orders`
-### **설명**: 특정 테이블의 미결제 주문을 조회합니다.
+### GET `/:tableId/orders`
+- **설명**: 특정 테이블의 미결제 주문을 조회합니다.
 
 - **Request**:
   - **Path Parameters**:
@@ -247,12 +239,10 @@
       }
       ```
 
-</details>
-
 ---
 
-## GET `/:storeId/menus`
-### **설명**: 특정 가게의 메뉴 및 메뉴 옵션을 조회합니다.
+### GET `/:storeId/menus`
+- **설명**: 특정 가게의 메뉴 및 메뉴 옵션을 조회합니다.
 
 - **Request**:
   - **Path Parameters**:
@@ -301,12 +291,10 @@
       }
       ```
 
-</details>
-
 ---
 
-## GET `/:storeId`
-### **설명**: 특정 가게의 세부 정보 및 주문 정보를 조회합니다.
+### GET `/:storeId`
+- **설명**: 특정 가게의 세부 정보 및 주문 정보를 조회합니다.
 
 - **Request**:
   - **Path Parameters**:
@@ -382,12 +370,10 @@
       }
       ```
 
-</details>
-
 ---
 
-## POST `/:storeId/tables`
-### **설명**: 특정 가게의 테이블 정보를 수정 또는 등록합니다.
+### POST `/:storeId/tables`
+- **설명**: 특정 가게의 테이블 정보를 수정 또는 등록합니다.
 
 - **Request**:
   - **Path Parameters**:
@@ -424,12 +410,10 @@
       }
       ```
 
-</details>
-
 ---
 
-## POST `/:storeId/menu-categories`
-### **설명**: 특정 가게에 새로운 메뉴 카테고리를 추가합니다.
+### POST `/:storeId/menu-categories`
+- **설명**: 특정 가게에 새로운 메뉴 카테고리를 추가합니다.
 
 - **Request**:
   - **Path Parameters**:
@@ -458,12 +442,10 @@
       }
       ```
 
-</details>
-
 ---
 
-## POST `/:menuCateId/menus`
-### **설명**: 특정 메뉴 카테고리에 새로운 메뉴를 추가합니다.
+### POST `/:menuCateId/menus`
+- **설명**: 특정 메뉴 카테고리에 새로운 메뉴를 추가합니다.
 
 - **Request**:
   - **Path Parameters**:
@@ -494,12 +476,10 @@
       }
       ```
 
-</details>
-
 ---
 
-## POST `/:menuId/menu-options`
-### **설명**: 특정 메뉴에 새로운 옵션을 추가합니다.
+### POST `/:menuId/menu-options`
+- **설명**: 특정 메뉴에 새로운 옵션을 추가합니다.
 
 - **Request**:
   - **Path Parameters**:
@@ -532,5 +512,3 @@
         "error": "Failed to create menu option"
       }
       ```
-
-</details>
