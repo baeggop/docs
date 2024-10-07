@@ -13,9 +13,9 @@ repository:
 html:
   home_page_in_navbar: false
   extra_navbar: ""
-  use_edit_page_button: true
-  use_repository_button: true
-  use_issues_button: true
+  use_edit_page_button: false
+  use_repository_button: false
+  use_issues_button: false
   baseurl: https://baeggop.github.io/docs
   # extra_footer: |
   #   <div>
