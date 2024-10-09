@@ -1,7 +1,8 @@
 > "When you hand good people possibility, they do great things."
+> 
 > *좋은 사람들에게 기회를 주면 그들이 위대한 성과를 이룰 수 있다.*  
 > 
-> — Biz Stone (Twitter의 공동 창립자)
+> *— Biz Stone -* (Twitter의 공동 창립자)
 
 # 설치법
 1. 적당한 장소에 clone한다.  
