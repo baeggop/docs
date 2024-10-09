@@ -14,7 +14,7 @@ parts:
       - file: api/v1/payment
       - file: api/v1/book
         # title: store 
-  - caption: auth policy
+  - caption: Auth policy
     chapters:
       - file: api/auth
   # - caption: Additional Resources
