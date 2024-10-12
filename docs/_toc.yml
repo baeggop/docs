@@ -14,6 +14,9 @@ parts:
       - file: api/v1/payment
       - file: api/v1/book
         # title: store 
+  - caption: ERD
+    chapters:
+      - file: api/erd
   - caption: Auth policy
     chapters:
       - file: api/auth
